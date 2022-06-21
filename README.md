@@ -1,37 +1,82 @@
-## Welcome to GitHub Pages
+<h1 align="center">
+  <br>
+  <a href="https://github.com/ultrasecurity/Storm-Breaker"><img src=".imgs/1demo.png" alt="StormBreaker"></a>
 
-You can use the [editor on GitHub](https://github.com/sreekanthyarlagadda/my-repo/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+</h1>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<h4 align="center">A tool with attractive capabilities</h4>
 
-### Markdown
+<p align="center">
+  <a href="http://python.org">
+    <img src="https://img.shields.io/badge/python-v3-blue">
+  </a>
+  <a href="https://php.net">
+    <img src="https://img.shields.io/badge/php-7.4.4-green"
+         alt="php">
+  </a>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+  <a href="https://www.microsoft.com/de-de/">
+    <img src="https://img.shields.io/badge/platform-Linux-red">
+  </a>
+</p>
 
-```markdown
-Syntax highlighted code block
+![demo](.imgs/Work0.png)
 
-# Header 1
-## Header 2
-### Header 3
+### Features:
 
-- Bulleted
-- List
+- Get Device Information Without Any Permissions
+- Access Location [SMARTPHONES]
+- Access Webcam
+- Access Microphone
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
+### Update Log:
+- Second(latest) Update in  May 18, 2022
+- The overall structure of the tool is programmed from scratch
+- Previous versions bugs fixed
+- Added auto-download ngrok
+
+> We have deleted ngrok in the new version of storm breaker and entrusted the user with run and share the localhost. So please note that storm breaker runs a localhost for you and you have to start the ngrok on your intended port yourself.
+
+
+### Dependencies
+
+**`Storm Breaker`** requires following programs to run properly - 
+- `php`
+- `neofetch`
+- `python3`
+- `git`
+- `ngrok`
+
+![demo](.imgs/Work3.gif)
+
+### Operating Systems Tested
+
+- Kali Linux 2022
+- macOS Big Sur / M1 
+
+### Installation On Kali Linux
+
+
+```bash
+$ git clone https://github.com/ultrasecurity/Storm-Breaker
+$ cd Storm-Breaker
+$ sudo bash install.sh
+$ sudo python3 -m pip install -r requirements.txt
+$ sudo python3 st.py
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+<h3 align="center">
+:: Workflow ::
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sreekanthyarlagadda/my-repo/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+</h3>
+<p align="center">
+<img src=".imgs/Work1.png"/>
+  
+<br>
+<img src=".imgs/Work2.png"/>
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+ 
+</p>
